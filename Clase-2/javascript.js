@@ -13,7 +13,7 @@ for (dia in dias) {
 
 
 /*var usuario = prompt("Bienvenido! Ingrese un día de la semana para continuar.").toLowerCase();
-var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
 
 for (dia in dias) {
 	
@@ -30,12 +30,12 @@ for (dia in dias) {
 }*/
 
 var usuario = prompt("Bienvenido! Ingrese un día de la semana para continuar.").toLowerCase();
-var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"]
+var dias = ["lunes", "martes", "miercoles", "jueves", "viernes", "sabado", "domingo"];
 
 for (dia in dias) {
 	
 	if (usuario == dias [5] || usuario == dias [6]) {
-		alert("Hoy "+usuario+", es fin de semana!.");
+		alert("Hoy "+usuario+", es fin de semana!");
 		break;
 	}	else if (usuario == dias [dia]) {
 		alert("Hoy "+usuario+", es día de semana.");
